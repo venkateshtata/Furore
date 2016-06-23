@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    tools:context="app.first.in.furore.Login">
+
+
+    <ImageView
+        android:layout_width="370dp"
+        android:layout_height="200dp"
+        android:src="@drawable/furorelogo"
+        />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp">
+    <ImageView
+        android:id="@+id/imphone"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:src="@drawable/phone"
+        android:layout_margin="5dp"/>
+
+    <EditText
+        android:id="@+id/etUsername"
+        android:layout_width="match_parent"
+        android:layout_toRightOf="@+id/imphone"
+        android:layout_height="wrap_content"
+        android:hint="Phone number"
+        android:inputType="number"
+        android:layout_margin="5dp"
+
+        android:textColorHint="#000"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp">
+    <ImageView
+        android:id="@+id/impass"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:src="@drawable/password"
+        android:layout_margin="5dp"/>
+
+    <EditText
+        android:id="@+id/etPassword"
+        android:layout_margin="5dp"
+        android:layout_toRightOf="@+id/impass"
+        android:inputType="textPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:textColorHint="#000"/>
+</RelativeLayout>
+    <Button
+        android:id="@+id/blogin"
+        android:layout_width="150dp"
+        android:layout_margin="10dp"
+        android:background="#000"
+        android:textColor="#fff"
+        android:layout_gravity="center"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:text="LOGIN"/>
+
+
+
+</LinearLayout>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp">
+        <ImageView
+            android:id="@+id/imnumber"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/number"
+            android:layout_margin="5dp"/>
+
+        <EditText
+            android:id="@+id/etNumber"
+            android:inputType="number"
+            android:layout_width="match_parent"
+            android:layout_toRightOf="@+id/imnumber"
+            android:layout_height="wrap_content"
+            android:hint="Enter your number"
+            android:layout_margin="5dp"
+
+            android:textColorHint="#000"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp">
+        <ImageView
+            android:id="@+id/imotp"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/otp"
+            android:layout_margin="5dp"/>
+
+        <EditText
+            android:id="@+id/etOtp"
+            android:layout_margin="5dp"
+            android:layout_toRightOf="@+id/imotp"
+            android:inputType="numberPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Your OTP"
+            android:textColorHint="#000"/>
+    </RelativeLayout>
+    <Button
+        android:id="@+id/bContinue"
+        android:layout_width="150dp"
+        android:layout_margin="10dp"
+        android:background="#000"
+        android:textColor="#fff"
+        android:layout_gravity="center"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:text="Continue"/>
+</LinearLayout>

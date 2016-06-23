@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    tools:context="app.first.in.furore.Login"
+    >
+
+<ImageView
+    android:layout_width="370dp"
+    android:layout_height="200dp"
+    android:src="@drawable/furorelogo"
+     />
+
+    <Button
+        android:id="@+id/bSignup"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="SIGN UP"
+        android:layout_gravity="center_horizontal"
+        android:background="#000"
+        android:textColor="#fff"/>
+
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="75dp"
+    android:text="OR"
+    android:gravity="center"
+    android:textSize="24dp"
+    android:textStyle="italic"
+    android:textColor="#000"/>
+
+
+    <Button
+        android:id="@+id/blogin"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:layout_toRightOf="@+id/bRegister"
+        android:layout_gravity="center_horizontal"
+        android:background="#000"
+        android:textColor="#fff"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/schedule"
+            android:text="Schedule"
+            android:background="@android:color/transparent"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"/>
+        <Button
+            android:id="@+id/notes"
+            android:text="Rule Book"
+            android:layout_marginLeft="50dp"
+            android:layout_toRightOf="@+id/schedule"
+            android:background="@android:color/transparent"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"/>
+
+        <Button
+            android:id="@+id/aboutus"
+            android:text="About us"
+            android:layout_marginLeft="50dp"
+            android:layout_toRightOf="@+id/notes"
+            android:background="@android:color/transparent"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"/>
+    </RelativeLayout>
+
+
+
+    
+</LinearLayout>

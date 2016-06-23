@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="app.first.in.furore.EventActivity"
+    android:padding="10dp">
+
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="5dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Dance"
+        android:textSize="30dp"
+        android:padding="10dp"
+        android:textColor="#000"
+        android:textStyle="bold"
+        />
+    <android.support.v7.widget.AppCompatCheckBox
+        android:id="@+id/wgd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Western Group dance"
+        android:textStyle="bold"
+        android:textSize="15dp"
+        android:onClick="selectitem"/>
+
+        <android.support.v7.widget.AppCompatCheckBox
+            android:id="@+id/sd"
+            android:onClick="selectitem"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Solo Dance"
+            android:textStyle="bold"
+            android:textSize="15dp"/>
+
+        <android.support.v7.widget.AppCompatCheckBox
+            android:id="@+id/tgam"
+            android:onClick="selectitem"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tapang Guchi Adu Machi"
+            android:textStyle="bold"
+            android:textSize="15dp"/>
+
+
+
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Music"
+        android:textSize="30dp"
+        android:padding="10dp"
+        android:textColor="#000"
+        android:textStyle="bold"
+        />
+
+        <android.support.v7.widget.AppCompatCheckBox
+            android:id="@+id/iwsm"
+            android:layout_width="wrap_content"
+            android:onClick="selectitem"
+            android:layout_height="wrap_content"
+            android:text="Indian and Western Solo Music"
+            android:textStyle="bold"
+            android:textSize="15dp"/>
+
+        <android.support.v7.widget.AppCompatCheckBox
+            android:id="@+id/iwgm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="selectitem"
+            android:text="Indian and Western Group Music"
+            android:textStyle="bold"
+            android:textSize="15dp"/>
+
+        <android.support.v7.widget.AppCompatCheckBox
+            android:id="@+id/cm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="selectitem"
+            android:text="Classical music"
+            android:textStyle="bold"
+            android:textSize="15dp"/>
+
+        <android.support.v7.widget.AppCompatCheckBox
+            android:id="@+id/bb"
+            android:layout_width="wrap_content"
+            android:onClick="selectitem"
+            android:layout_height="wrap_content"
+            android:text="Beat Boxing"
+            android:textStyle="bold"
+            android:textSize="15dp"/>
+        <android.support.v7.widget.AppCompatCheckBox
+            android:id="@+id/wd"
+            android:layout_width="wrap_content"
+            android:onClick="selectitem"
+            android:layout_height="wrap_content"
+            android:text="War of DJ's"
+            android:textStyle="bold"
+            android:textSize="15dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Art"
+            android:textSize="30dp"
+            android:padding="10dp"
+            android:textColor="#000"
+            android:textStyle="bold"
+            />
+        <android.support.v7.widget.AppCompatCheckBox
+            android:id="@+id/sp"
+            android:onClick="selectitem"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Spot painting"
+            android:textStyle="bold"
+            android:textSize="15dp"/>
+
+        <android.support.v7.widget.AppCompatCheckBox
+            android:id="@+id/fp"
+            android:layout_width="wrap_content"
+            android:onClick="selectitem"
+            android:layout_height="wrap_content"
+            android:text="Face Painting"
+            android:textStyle="bold"
+            android:textSize="15dp"/>
+
+        <android.support.v7.widget.AppCompatCheckBox
+            android:id="@+id/collage"
+            android:layout_width="wrap_content"
+            android:onClick="selectitem"
+            android:layout_height="wrap_content"
+            android:text="Collage"
+            android:textStyle="bold"
+            android:textSize="15dp"/>
+
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Literary"
+            android:textSize="30dp"
+            android:padding="10dp"
+            android:textColor="#000"
+            android:textStyle="bold"
+            />
+        <android.support.v7.widget.AppCompatCheckBox
+            android:id="@+id/quiz"
+            android:layout_width="wrap_content"
+            android:onClick="selectitem"
+            android:layout_height="wrap_content"
+            android:text="Quiz"
+            android:textStyle="bold"
+            android:textSize="15dp"/>
+
+        <android.support.v7.widget.AppCompatCheckBox
+            android:id="@+id/debate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="selectitem"
+            android:text="Debate"
+            android:textStyle="bold"
+            android:textSize="15dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Theatre"
+            android:textSize="30dp"
+            android:padding="10dp"
+            android:textColor="#000"
+            android:textStyle="bold"
+            />
+        <android.support.v7.widget.AppCompatCheckBox
+            android:id="@+id/mads"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="selectitem"
+            android:text="Mad Ads"
+            android:textStyle="bold"
+            android:textSize="15dp"/>
+
+        <android.support.v7.widget.AppCompatCheckBox
+            android:id="@+id/street"
+            android:layout_width="wrap_content"
+            android:onClick="selectitem"
+            android:layout_height="wrap_content"
+            android:text="Street Play"
+            android:textStyle="bold"
+            android:textSize="15dp"/>
+
+        <android.support.v7.widget.AppCompatCheckBox
+            android:id="@+id/dumb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Dumb Charades"
+            android:onClick="selectitem"
+            android:textStyle="bold"
+            android:textSize="15dp"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Photography"
+            android:textSize="30dp"
+            android:padding="10dp"
+            android:textColor="#000"
+            android:textStyle="bold"
+            />
+        <android.support.v7.widget.AppCompatCheckBox
+            android:id="@+id/shortfilm"
+            android:onClick="selectitem"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Short Film Competition"
+            android:textStyle="bold"
+            android:textSize="15dp"/>
+
+        <android.support.v7.widget.AppCompatCheckBox
+            android:id="@+id/photography"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="selectitem"
+            android:text="Photography"
+            android:textStyle="bold"
+            android:textSize="15dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="DJ Night"
+            android:textSize="30dp"
+            android:padding="10dp"
+            android:textColor="#000"
+            android:textStyle="bold"
+            />
+        <android.support.v7.widget.AppCompatCheckBox
+            android:id="@+id/dj"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="DJ Night"
+            android:textStyle="bold"
+            android:textSize="15dp"/>
+
+        <Button
+            android:id="@+id/bContinue"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="Continue"
+            android:textColor="#fff"
+            android:layout_gravity="right"
+            android:background="#000"
+            android:textStyle="bold"
+            android:visibility="invisible" />
+        <Button
+            android:id="@+id/bconform"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="confirm"
+            android:layout_margin="5dp"
+            android:layout_toRightOf="@id/bContinue"
+            android:background="#000"
+            android:textColor="#fff"
+            android:onClick="finalSelection"/>
+    </LinearLayout>
+
+</ScrollView>
+
+
+
+
+
+
+
+</FrameLayout>
